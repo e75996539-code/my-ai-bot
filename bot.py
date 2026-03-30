@@ -43,7 +43,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 # 🔥 Main start
-if _name_ == "_main_":
+if __name__ == "__main__":
     print("Bot starting... 🚀")
 
     app = ApplicationBuilder().token(BOT_TOKEN).build()
